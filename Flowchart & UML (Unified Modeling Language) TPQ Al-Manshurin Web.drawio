@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="Z2mw79WxY5D5XjeRL8sG">
-    <mxGraphModel dx="13340" dy="7219" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3650" dy="4355" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -710,6 +710,95 @@
         <mxCell id="d6oFbTxxji5tn7Q0XJDS-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 90px;&quot;&gt;ACTIVITY DIAGRAM FINAL&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="1250" x="7180" y="1110" as="geometry" />
         </mxCell>
+        <mxCell id="Y6rGyWLnAH7Ii_7lhrNw-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 90px;&quot;&gt;STRUKTUR ORGANISASI&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="1250" x="4760" y="-1140" as="geometry" />
+        </mxCell>
+        <UserObject label="" mermaidData="{&#xa;  &quot;data&quot;: &quot;flowchart TD\n    %% Styling Hitam Putih Polos\n    classDef default fill:#fff,stroke:#000,stroke-width:1.5px,color:#000\n    classDef pimpinan fill:#fff,stroke:#000,stroke-width:3px,color:#000,font-weight:bold\n\n    %% Pimpinan Utama (Paling Atas)\n    Ketua[\&quot;&lt;b&gt;KETUA TPQ&lt;/b&gt;&lt;br/&gt;Bp. M.Hulaimul Fikri\&quot;]:::pimpinan\n\n    %% Baris Pertama (3 Kolom biar nggak lebar ke samping)\n    Wakil[\&quot;&lt;b&gt;WAKIL KETUA&lt;/b&gt;&lt;br/&gt;Wakil 1: Bp. Pandu Prameswara&lt;br/&gt;Wakil 2: Bp. Ravido Sakti Muryanto\&quot;]\n    Sekretaris[\&quot;&lt;b&gt;SEKRETARIS &amp; PEMBINA&lt;/b&gt;&lt;br/&gt;Sek Umum: Bp. Bangga Atmaja&lt;br/&gt;Pembina: Bp. Yuntopo Yoga\&quot;]\n    Keamanan[\&quot;&lt;b&gt;SEKSI KEAMANAN&lt;/b&gt;&lt;br/&gt;Bp. Rifki Nur fadilah&lt;br/&gt;Bp. Fauzan&lt;br/&gt;Bp. Sidal\&quot;]\n\n    %% Hubungan dari Ketua ke 3 Pilar\n    Ketua --&gt; Wakil\n    Ketua --&gt; Sekretaris\n    Ketua --&gt; Keamanan\n\n    %% Baris Kedua (Digantung/ditumpuk ke bawah seperti referensi temen lo)\n    Bendahara[\&quot;&lt;b&gt;BENDAHARA &amp; KEUANGAN&lt;/b&gt;&lt;br/&gt;Utama: Bp. Adis Fariedsi&lt;br/&gt;Keuangan: Bp. Abdul Rojaq\&quot;]\n    Pakar[\&quot;&lt;b&gt;PAKAR &amp; KOORDINATOR&lt;/b&gt;&lt;br/&gt;Pendidik: Bp. Kustian Guntolo&lt;br/&gt;Koord Ibu-ibu: Ibu Evanti Andriani\&quot;]\n    Ustadz[\&quot;&lt;b&gt;USTADZ (TENAGA PENGAJAR)&lt;/b&gt;&lt;br/&gt;Sdr. Fajar Syahri&lt;br/&gt;Sdr. Putra&lt;br/&gt;Sdr. Dwika&lt;br/&gt;Sdr. Ahmad Subhi Aljava\&quot;]\n\n    %% Garis gantung vertikal (pakai garis lurus biasa tanpa panah)\n    Wakil --- Bendahara\n    Sekretaris --- Pakar\n    Keamanan --- Ustadz&quot;,&#xa;  &quot;config&quot;: null&#xa;}" id="Y6rGyWLnAH7Ii_7lhrNw-124">
+          <mxCell connectable="0" parent="1" style="group;transparentBounds=1;editIcon=1;lockedGroup=0;groupPadding=10;" vertex="1">
+            <mxGeometry height="3260" width="4953" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;KETUA TPQ&lt;/b&gt;&#xa;Bp. M.Hulaimul Fikri" mermaidId="n:Ketua" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=3;fillColor=default;strokeColor=default;fontColor=default;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;fontStyle=1;" mermaidBaseValue="&lt;b&gt;KETUA TPQ&lt;/b&gt;&#xa;Bp. M.Hulaimul Fikri" id="Y6rGyWLnAH7Ii_7lhrNw-125">
+          <mxCell parent="Y6rGyWLnAH7Ii_7lhrNw-124" style="html=1;whiteSpace=wrap;strokeWidth=3;fillColor=default;strokeColor=default;fontColor=default;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;fontStyle=1;" vertex="1">
+            <mxGeometry height="73" width="206" x="5285" y="-970" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;WAKIL KETUA&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Wakil 1: Bp. Pandu Prameswara&lt;br&gt;Wakil 2: Bp. Ravido Sakti Muryanto&lt;/font&gt;&lt;/div&gt;" mermaidId="n:Wakil" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1.5;fillColor=default;strokeColor=default;fontColor=default;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="&lt;b&gt;WAKIL KETUA&lt;/b&gt;&#xa;Wakil 1: Bp. Pandu Prameswara&#xa;Wakil 2: Bp. Ravido Sakti Muryanto" id="Y6rGyWLnAH7Ii_7lhrNw-126">
+          <mxCell parent="Y6rGyWLnAH7Ii_7lhrNw-124" style="html=1;whiteSpace=wrap;strokeWidth=1.5;fillColor=default;strokeColor=default;fontColor=default;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="87" width="310" x="4887" y="-837" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;SEKRETARIS &amp;amp; PEMBINA&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Sek Umum: Bp. Bangga Atmaja&lt;br&gt;Pembina: Bp. Yuntopo Yoga&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" mermaidId="n:Sekretaris" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1.5;fillColor=default;strokeColor=default;fontColor=default;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="&lt;b&gt;SEKRETARIS &amp; PEMBINA&lt;/b&gt;&#xa;Sek Umum: Bp. Bangga Atmaja&#xa;Pembina: Bp. Yuntopo Yoga" id="Y6rGyWLnAH7Ii_7lhrNw-127">
+          <mxCell parent="Y6rGyWLnAH7Ii_7lhrNw-124" style="html=1;whiteSpace=wrap;strokeWidth=1.5;fillColor=default;strokeColor=default;fontColor=default;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="87" width="281" x="5247" y="-837" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;SEKSI KEAMANAN&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Bp. Rifki Nur fadilah&lt;br&gt;Bp. Fauzan&lt;br&gt;Bp. Sidal&lt;/font&gt;&lt;/div&gt;" mermaidId="n:Keamanan" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1.5;fillColor=default;strokeColor=default;fontColor=default;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="&lt;b&gt;SEKSI KEAMANAN&lt;/b&gt;&#xa;Bp. Rifki Nur fadilah&#xa;Bp. Fauzan&#xa;Bp. Sidal" id="Y6rGyWLnAH7Ii_7lhrNw-128">
+          <mxCell parent="Y6rGyWLnAH7Ii_7lhrNw-124" style="html=1;whiteSpace=wrap;strokeWidth=1.5;fillColor=default;strokeColor=default;fontColor=default;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="107" width="206" x="5624" y="-837" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;BENDAHARA &amp;amp; KEUANGAN&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Utama: Bp. Adis Fariedsi&lt;br&gt;Keuangan: Bp. Abdul Rojaq&lt;/font&gt;&lt;/div&gt;" mermaidId="n:Bendahara" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1.5;fillColor=default;strokeColor=default;fontColor=default;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="&lt;b&gt;BENDAHARA &amp; KEUANGAN&lt;/b&gt;&#xa;Utama: Bp. Adis Fariedsi&#xa;Keuangan: Bp. Abdul Rojaq" id="Y6rGyWLnAH7Ii_7lhrNw-129">
+          <mxCell parent="Y6rGyWLnAH7Ii_7lhrNw-124" style="html=1;whiteSpace=wrap;strokeWidth=1.5;fillColor=default;strokeColor=default;fontColor=default;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="116" width="253" x="4916" y="-666" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;PAKAR PENDIDIK&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;font style=&quot;&quot;&gt;Bp. Kustian Guntolo&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" mermaidId="n:Pakar" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1.5;fillColor=default;strokeColor=default;fontColor=default;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="&lt;b&gt;PAKAR &amp; KOORDINATOR&lt;/b&gt;&#xa;Pendidik: Bp. Kustian Guntolo&#xa;Koord Ibu-ibu: Ibu Evanti Andriani" id="Y6rGyWLnAH7Ii_7lhrNw-130">
+          <mxCell parent="Y6rGyWLnAH7Ii_7lhrNw-124" style="html=1;whiteSpace=wrap;strokeWidth=1.5;fillColor=default;strokeColor=default;fontColor=default;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="93" width="302" x="5237" y="-666" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;USTADZ (TENAGA PENGAJAR)&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Sdr. Fajar Syahri&lt;br&gt;Sdr. Putra&lt;br&gt;Sdr. Dwika&lt;br&gt;Sdr. Ahmad Subhi Aljava&lt;/font&gt;&lt;/div&gt;" mermaidId="n:Ustadz" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1.5;fillColor=default;strokeColor=default;fontColor=default;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="&lt;b&gt;USTADZ (TENAGA PENGAJAR)&lt;/b&gt;&#xa;Sdr. Fajar Syahri&#xa;Sdr. Putra&#xa;Sdr. Dwika&#xa;Sdr. Ahmad Subhi Aljava" id="Y6rGyWLnAH7Ii_7lhrNw-131">
+          <mxCell parent="Y6rGyWLnAH7Ii_7lhrNw-124" style="html=1;whiteSpace=wrap;strokeWidth=1.5;fillColor=default;strokeColor=default;fontColor=default;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="131" width="276" x="5589" y="-685" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:Ketua-&gt;Wakil#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0;exitY=0.75;entryX=0.5;entryY=0;" mermaidBaseValue="" id="Y6rGyWLnAH7Ii_7lhrNw-132">
+          <mxCell edge="1" parent="Y6rGyWLnAH7Ii_7lhrNw-124" source="Y6rGyWLnAH7Ii_7lhrNw-125" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0;exitY=0.75;entryX=0.5;entryY=0;rounded=0;" target="Y6rGyWLnAH7Ii_7lhrNw-126">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="5042" y="-872" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:Ketua-&gt;Sekretaris#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="" id="Y6rGyWLnAH7Ii_7lhrNw-133">
+          <mxCell edge="1" parent="Y6rGyWLnAH7Ii_7lhrNw-124" source="Y6rGyWLnAH7Ii_7lhrNw-125" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Y6rGyWLnAH7Ii_7lhrNw-127">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:Ketua-&gt;Keamanan#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.75;entryX=0.5;entryY=0;" mermaidBaseValue="" id="Y6rGyWLnAH7Ii_7lhrNw-134">
+          <mxCell edge="1" parent="Y6rGyWLnAH7Ii_7lhrNw-124" source="Y6rGyWLnAH7Ii_7lhrNw-125" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.75;entryX=0.5;entryY=0;rounded=0;" target="Y6rGyWLnAH7Ii_7lhrNw-128">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="5727" y="-872" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:Wakil-&gt;Bendahara#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=none;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="" id="Y6rGyWLnAH7Ii_7lhrNw-135">
+          <mxCell edge="1" parent="Y6rGyWLnAH7Ii_7lhrNw-124" source="Y6rGyWLnAH7Ii_7lhrNw-126" style="curved=1;startArrow=none;endArrow=none;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Y6rGyWLnAH7Ii_7lhrNw-129">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:Sekretaris-&gt;Pakar#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=none;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="" id="Y6rGyWLnAH7Ii_7lhrNw-136">
+          <mxCell edge="1" parent="Y6rGyWLnAH7Ii_7lhrNw-124" source="Y6rGyWLnAH7Ii_7lhrNw-127" style="curved=1;startArrow=none;endArrow=none;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Y6rGyWLnAH7Ii_7lhrNw-130">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:Keamanan-&gt;Ustadz#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=none;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="" id="Y6rGyWLnAH7Ii_7lhrNw-137">
+          <mxCell edge="1" parent="Y6rGyWLnAH7Ii_7lhrNw-124" source="Y6rGyWLnAH7Ii_7lhrNw-128" style="curved=1;startArrow=none;endArrow=none;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Y6rGyWLnAH7Ii_7lhrNw-131">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
