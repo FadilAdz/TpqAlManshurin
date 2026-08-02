@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="Z2mw79WxY5D5XjeRL8sG">
-    <mxGraphModel dx="5092" dy="6271" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="849" dy="3968" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1793,33 +1793,23 @@
             </mxGeometry>
           </mxCell>
         </UserObject>
+        <mxCell id="3Ad-0qLdz-nrB3cCByRM-1" edge="1" parent="0y7DpQLNoabtxaI-konG-1" source="0y7DpQLNoabtxaI-konG-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="0y7DpQLNoabtxaI-konG-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="7170" y="1666" />
+              <mxPoint x="7170" y="1454" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <UserObject label="Tampilkan Pesan Error" plantUmlId="action_27" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;" plantUmlBaseValue="Tampilkan Pesan Error" id="0y7DpQLNoabtxaI-konG-24">
           <mxCell parent="0y7DpQLNoabtxaI-konG-1" style="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=1;whiteSpace=wrap;fontSize=12;align=center;spacingLeft=6;" vertex="1">
             <mxGeometry height="36" width="142" x="7016" y="1648" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="Ulangi Proses Login" plantUmlId="action_29" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;whiteSpace=wrap;fontSize=12;align=left;spacingLeft=6;" plantUmlBaseValue="Ulangi Proses Login" id="0y7DpQLNoabtxaI-konG-25">
-          <mxCell parent="0y7DpQLNoabtxaI-konG-1" style="rounded=1;absoluteArcSize=1;arcSize=25;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=1;whiteSpace=wrap;fontSize=12;align=center;spacingLeft=6;" vertex="1">
-            <mxGeometry height="36" width="129" x="7022.5" y="1704" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="" plantUmlId="e_30" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#181818;" plantUmlBaseValue="" id="0y7DpQLNoabtxaI-konG-26">
-          <mxCell edge="1" parent="0y7DpQLNoabtxaI-konG-1" source="0y7DpQLNoabtxaI-konG-24" style="endArrow=classic;endSize=8;strokeColor=#181818;rounded=0;align=center;" target="0y7DpQLNoabtxaI-konG-25">
-            <mxGeometry relative="1" as="geometry">
-              <mxPoint x="7087" y="1684" as="sourcePoint" />
-              <mxPoint x="7087" y="1704" as="targetPoint" />
-            </mxGeometry>
-          </mxCell>
-        </UserObject>
-        <UserObject label="" plantUmlId="detach_32" plantUmlBaseStyle="shape=cross;fillColor=none;strokeColor=#181818;strokeWidth=2;size=0.4;" plantUmlBaseValue="" id="0y7DpQLNoabtxaI-konG-27">
-          <mxCell parent="0y7DpQLNoabtxaI-konG-1" style="shape=cross;fillColor=none;strokeColor=#181818;strokeWidth=2;size=0.4;align=center;" vertex="1">
-            <mxGeometry height="30" width="30" x="7072" y="1760" as="geometry" />
-          </mxCell>
-        </UserObject>
         <UserObject label="" plantUmlId="e_33" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#181818;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" plantUmlBaseValue="" id="0y7DpQLNoabtxaI-konG-28">
-          <mxCell edge="1" parent="0y7DpQLNoabtxaI-konG-1" source="0y7DpQLNoabtxaI-konG-25" style="endArrow=classic;endSize=8;strokeColor=#181818;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;align=center;" target="0y7DpQLNoabtxaI-konG-27">
+          <mxCell edge="1" parent="0y7DpQLNoabtxaI-konG-1" style="endArrow=classic;endSize=8;strokeColor=#181818;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;align=center;" target="0y7DpQLNoabtxaI-konG-27">
             <mxGeometry relative="1" as="geometry">
-              <mxPoint x="7087" y="1740" as="sourcePoint" />
+              <mxPoint x="7087.000000000001" y="1740" as="sourcePoint" />
               <mxPoint x="7087" y="1760" as="targetPoint" />
             </mxGeometry>
           </mxCell>
