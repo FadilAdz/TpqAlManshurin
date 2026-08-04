@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="Z2mw79WxY5D5XjeRL8sG">
-    <mxGraphModel dx="1512" dy="4198" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1680" dy="4275" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1191,11 +1191,11 @@
         </UserObject>
         <UserObject label="Lihat Galeri" plantUmlId="e_22" plantUmlBaseStyle="endArrow=classic;endSize=8;strokeColor=#181818;fontSize=11;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" plantUmlBaseValue="Lihat Galeri" id="ECOy2BSH5h7HllO4YNSo-308">
           <mxCell edge="1" parent="ECOy2BSH5h7HllO4YNSo-293" source="ECOy2BSH5h7HllO4YNSo-301" style="endArrow=classic;endSize=8;strokeColor=#181818;fontSize=11;exitX=0.5;exitY=1;exitDx=0;exitDy=0;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ECOy2BSH5h7HllO4YNSo-309">
-            <mxGeometry relative="1" x="-0.4118" as="geometry">
+            <mxGeometry relative="1" x="-0.4119" as="geometry">
               <mxPoint as="offset" />
               <Array as="points" />
-              <mxPoint x="400.25" y="196" as="sourcePoint" />
-              <mxPoint x="367.25" y="244" as="targetPoint" />
+              <mxPoint x="367.75" y="215.9999999999991" as="sourcePoint" />
+              <mxPoint x="367.25" y="250" as="targetPoint" />
             </mxGeometry>
           </mxCell>
         </UserObject>
